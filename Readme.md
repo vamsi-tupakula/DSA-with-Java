@@ -1,5 +1,4 @@
 # Important Topics in DSA
-
 - [ ] Basics of Java
 - [ ] Arrays
 - [ ] Strings
