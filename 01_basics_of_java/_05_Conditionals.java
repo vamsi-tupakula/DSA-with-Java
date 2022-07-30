@@ -18,6 +18,31 @@ public class _05_Conditionals {
         } else {
             System.out.println("No, the person is not an adult");
         }
+
+        // program to check whether entered character is vowel or not
+        System.out.println("----***----");
+        System.out.print("Enter any character :: ");
+        char ch = Character.toLowerCase(sc.next().charAt(0));
+        switch (ch) {
+            case 'a':
+                System.out.println("vowel");
+                break;
+            case 'e':
+                System.out.println("vowel");
+                break;
+            case 'i':
+                System.out.println("vowel");
+                break;
+            case 'o':
+                System.out.println("vowel");
+                break;
+            case 'u':
+                System.out.println("vowel");
+                break;
+            default:
+            System.out.println("Consonant (not an vowel)");
+                break;
+        }
         sc.close();
     }
 }
