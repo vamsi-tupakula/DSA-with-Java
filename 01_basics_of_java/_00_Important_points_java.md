@@ -29,3 +29,27 @@ All Variables are identifiers but all identifiers are not variables.
 
 ## what is literal?
 If we consider a variable a which is defined as `int a = 15` then a is known as identifier and 15 is known as the literal.
+
+## what is type conversion?
+As the name suggest type conversion means converting the data type of variables.
+When we assign a value of one variable to another variable with different data type. they two might be compatible if they are compatible then java will automatically perform type coversion, if not then they need to be cast or converted explicitly.
+
+`byte -> short -> int -> long -> float -> double`
+
+Above order indicates, a data type is compatable with all the data types which are before it.
+
+## what is type casting?
+As I said `long` cannot be converted into `int` by automatic conversion, since `int` is not compatible with `long`, so we need to convert it explicitly this explicit conversion is known as type casting.
+
+```java
+int num = (int)(67.57f);
+/**
+* float value of 67.57 is casted into integer value of 67, so num will be 67
+*/
+```
+
+## what is type promotion?
+While evaluating an expression, the intermediate values may exceed the range of operands and hence expression value will be promoted.
+
+1. Java automatically promotes each byte, short, char operand to int when evaluating an expression.
+2. If one operand is long, float, double then the whole expression will be promoted to long, float, double respectively.
