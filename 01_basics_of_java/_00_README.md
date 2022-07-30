@@ -56,3 +56,6 @@ While evaluating an expression, the intermediate values may exceed the range of 
 
 ## what is difference between while loop and do while loop?
 In while loop the statements inside the loop will run only if the codition is satisfied and in do while loop no matter whether the condition is satisfied or not the statements will run atleast once.
+
+## what are functions in java?
+functions in java are also known as methods, functions are basically the reusable portion of a program. This portion of code will only run when it is called.
