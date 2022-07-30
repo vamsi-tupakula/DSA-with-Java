@@ -53,3 +53,6 @@ While evaluating an expression, the intermediate values may exceed the range of 
 
 1. Java automatically promotes each byte, short, char operand to int when evaluating an expression.
 2. If one operand is long, float, double then the whole expression will be promoted to long, float, double respectively.
+
+## what is difference between while loop and do while loop?
+In while loop the statements inside the loop will run only if the codition is satisfied and in do while loop no matter whether the condition is satisfied or not the statements will run atleast once.
