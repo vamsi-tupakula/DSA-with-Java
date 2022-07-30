@@ -59,3 +59,22 @@ In while loop the statements inside the loop will run only if the codition is sa
 
 ## what are functions in java?
 functions in java are also known as methods, functions are basically the reusable portion of a program. This portion of code will only run when it is called.
+
+## what is scoping in java?
+In java, scoping defines where can a variable or method is accessible in a program.
+1. Block scope
+2. Function scope
+3. Loop scope
+
+## what is shadowing in java?
+shadowing in java is the practice of overlapping the scopes with the same name where the variable in low-level scope overrides the variable of high-level scope.
+
+## what are varargs (variable arguments)?
+Sometimes we may don't know how many arguments to pass into a method or a function then we use this `varargs`. i.e. `method(int ...v)`, this method will take an array of inputs.
+
+## what is function overriding?
+Defining a function with same name of another function but with different data types of arguments or different number of arguments
+
+Conditions for function overriding :
+1. type of arguments should be different
+2. no of arguments should be different.
