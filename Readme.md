@@ -2,7 +2,9 @@
 
 - [ ] Basics of Java
 - [ ] Arrays
+- [ ] ArrayList
 - [ ] Strings
+- [ ] StringBuilder
 - [ ] LinkedList
 - [ ] Stacks
 - [ ] Queues
