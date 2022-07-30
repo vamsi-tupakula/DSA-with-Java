@@ -1,4 +1,4 @@
-# Important Topics in DSA
+# Important Topics in DSA 🔥🔥
 
 - [ ] Basics of Java
 - [ ] Arrays

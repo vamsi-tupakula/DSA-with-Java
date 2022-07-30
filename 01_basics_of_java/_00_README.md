@@ -1,4 +1,4 @@
-# Basic Java Notes
+# Java Important Points 🚀🚀
 
 ## When was java created?
 Java was created by James Gosling. Sun Microsystems officially launched java in the year 1995. (Now sun is a part of Oracle .Inc)
