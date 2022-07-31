@@ -1,6 +1,6 @@
 # Important Topics in DSA 🔥🔥
 
-- [ ] Basics of Java
+- [x] Basics of Java
 - [ ] Arrays
 - [ ] ArrayList
 - [ ] Strings
