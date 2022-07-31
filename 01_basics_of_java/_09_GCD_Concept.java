@@ -25,6 +25,8 @@ class _09_GCD_Concept {
          * LCM of two numbers a and b must be greater than or equal to maximum of a and b
          * formula for lcm using gcd is LCM = (a*b)/gcd
          */
+        System.out.print("LCM : ");
+        System.out.println(lcm(4, 14));
     }
     public static int normal(int a,int b) {
         int res = Math.min(a, b);
@@ -51,4 +53,7 @@ class _09_GCD_Concept {
             return optimizedEuclid(b, a % b);
         }
     }
+    public static int lcm(int a,int b) {
+        return (a*b)/optimizedEuclid(a, b);
+    } 
 }
