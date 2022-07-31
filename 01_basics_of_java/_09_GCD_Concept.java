@@ -19,6 +19,12 @@ class _09_GCD_Concept {
         // third method :
         System.out.print("Optimized Euclid : ");
         System.out.println(optimizedEuclid(12, 30));
+
+        // how to find LCM of two numbers
+        /**
+         * LCM of two numbers a and b must be greater than or equal to maximum of a and b
+         * formula for lcm using gcd is LCM = (a*b)/gcd
+         */
     }
     public static int normal(int a,int b) {
         int res = Math.min(a, b);
