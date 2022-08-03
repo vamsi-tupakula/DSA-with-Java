@@ -8,3 +8,4 @@
 6. [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 7. [Power of Two](https://leetcode.com/problems/power-of-two/)
 8. [Power of Three](https://leetcode.com/problems/power-of-three/)
+9. [Power of Four](https://leetcode.com/problems/power-of-four/)
