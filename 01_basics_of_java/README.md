@@ -78,3 +78,20 @@ Defining a function with same name of another function but with different data t
 Conditions for function overriding :
 1. type of arguments should be different
 2. no of arguments should be different.
+
+## what is brian kernighan's algorithm?
+subtracting 1 from a decimal number flips all the bits after the rightmost set bit including the rightmost set bit.
+```
+10 -> 1010
+10-1 -> 9 -> 1001
+```
+
+brian kernighan's algorithm is used to find the number of set bits in a decimal number
+for example : number of set bits in 10
+steps :
+1. Initialize count variable to 1
+2. If n > 0
+    1. do 'and' operation of n and n-1 and assign the value to n
+    2. increase count by 1
+    3. go to step 2
+3. return count
