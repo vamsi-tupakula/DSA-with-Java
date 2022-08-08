@@ -12,3 +12,4 @@
 10. [Leap Year](https://practice.geeksforgeeks.org/problems/leap-year0943/1)
 11. [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
 12. [Even and Odd](https://practice.geeksforgeeks.org/problems/even-and-odd/1)
+13. [Max Min](https://practice.geeksforgeeks.org/problems/max-min/1)
