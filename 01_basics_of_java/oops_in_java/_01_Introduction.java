@@ -11,6 +11,11 @@ public class _01_Introduction {
         System.out.println(student1.roll_no);
         System.out.println(student2.roll_no);
         student1.greet();
+        student2.changeName("Downey");
+        System.out.println(student2.name);
+
+        Student student2_copy = new Student(student2);
+        System.out.println(student2_copy.roll_no);
     }
 }
 
@@ -23,9 +28,18 @@ class Student {
         this.roll_no = 1234;
     }
 
+    Student(Student other) {
+        this.name = other.name;
+        this.roll_no = other.roll_no;
+    }
+
     Student(String name,int roll_no) {
         this.name = name;
         this.roll_no = roll_no;
+    }
+
+    void changeName(String new_name) {
+        this.name = new_name;
     }
 
     void greet() {
