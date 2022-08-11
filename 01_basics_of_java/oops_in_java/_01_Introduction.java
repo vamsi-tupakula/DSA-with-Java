@@ -28,6 +28,11 @@ class Student {
         this.roll_no = 1234;
     }
 
+    Student(int roll_no) {
+        // calling another constructor from one constructor
+        this ("Default User",roll_no);
+    }
+
     Student(Student other) {
         this.name = other.name;
         this.roll_no = other.roll_no;
