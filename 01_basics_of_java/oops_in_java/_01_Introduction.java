@@ -22,6 +22,9 @@ public class _01_Introduction {
         // uncommenting below line will give us error. classes, variables, methods defined with final keyword cannot be changed in future.
         // num = 10;
         System.out.println(num);
+
+        final int[] arr = {1, 2, 3, 4, 5};
+        arr[0] = 0;
     }
 }
 
