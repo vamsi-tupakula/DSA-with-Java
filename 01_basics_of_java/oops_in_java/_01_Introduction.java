@@ -16,6 +16,12 @@ public class _01_Introduction {
 
         Student student2_copy = new Student(student2);
         System.out.println(student2_copy.roll_no);
+
+        // final keyword
+        final int num = 5;
+        // uncommenting below line will give us error. classes, variables, methods defined with final keyword cannot be changed in future.
+        // num = 10;
+        System.out.println(num);
     }
 }
 
