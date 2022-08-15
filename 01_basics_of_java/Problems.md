@@ -16,3 +16,4 @@
 14. [First and last occurrences of X](https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x2041/1)
 15. [Number of occurrence](https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1)
 16. [Index of first 1 in a sorted array of 0s and 1s](https://practice.geeksforgeeks.org/problems/index-of-first-1-in-a-sorted-array-of-0s-and-1s4048/1)
+17. [Check if two arrays are equal or not](https://practice.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not3847/1)
