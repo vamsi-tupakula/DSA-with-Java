@@ -13,3 +13,4 @@
 11. [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
 12. [Even and Odd](https://practice.geeksforgeeks.org/problems/even-and-odd/1)
 13. [Max Min](https://practice.geeksforgeeks.org/problems/max-min/1)
+14. [First and last occurrences of X](https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x2041/1)
