@@ -15,3 +15,4 @@
 13. [Max Min](https://practice.geeksforgeeks.org/problems/max-min/1)
 14. [First and last occurrences of X](https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x2041/1)
 15. [Number of occurrence](https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1)
+16. [Index of first 1 in a sorted array of 0s and 1s](https://practice.geeksforgeeks.org/problems/index-of-first-1-in-a-sorted-array-of-0s-and-1s4048/1)
