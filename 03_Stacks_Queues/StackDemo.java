@@ -10,6 +10,7 @@ public class StackDemo {
         stack.push(27);
 
         int n = stack.size();
+        System.out.println(stack);
         System.out.println(stack.search(15));
         System.out.println(stack.empty());
         for(int i=0;i<n;i++) {
