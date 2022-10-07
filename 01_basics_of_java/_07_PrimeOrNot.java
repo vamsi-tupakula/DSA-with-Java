@@ -6,6 +6,10 @@ public class _07_PrimeOrNot {
         System.out.print("Enter any number :: ");
         int num = sc.nextInt();
         sc.close();
+        if(num == 1) {
+            System.out.println("num is not a prime");
+            return;
+        }
         if(num == 2 || num == 3) {
             System.out.println("num is prime");
             return;
