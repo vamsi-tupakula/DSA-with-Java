@@ -14,7 +14,8 @@ public class _05_Sorting {
         sc.close();
 
         // bubbleSort(arr);
-        selectionSort(arr);
+        // selectionSort(arr);
+        insertionSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
@@ -43,6 +44,19 @@ public class _05_Sorting {
             int temp = arr[i];
             arr[i] = arr[smallest];
             arr[smallest] = temp;
+        }
+    }
+
+    private static void insertionSort(int[] arr) {
+        int n = arr.length;
+        for(int i=1;i<n;i++) {
+            int curr = arr[i];
+            int j = i-1;
+            while(j >= 0 && arr[j] > curr) {
+                arr[j+1] = arr[j];
+                j--;
+            }
+            arr[j+1] = curr;
         }
     }
 }
