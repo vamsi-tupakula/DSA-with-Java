@@ -13,8 +13,8 @@ public class _05_Sorting {
 
         sc.close();
 
-        System.out.println("Bubble Sort :");
-        bubbleSort(arr);
+        // bubbleSort(arr);
+        selectionSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
@@ -28,6 +28,21 @@ public class _05_Sorting {
                     arr[j+1] = temp;
                 }
             }
+        }
+    }
+
+    private static void selectionSort(int[] arr) {
+        int n = arr.length;
+        for(int i=0;i<n-1;i++) {
+            int smallest = i;
+            for(int j=i+1;j<=n-1;j++) {
+                if(arr[j] < arr[smallest]) {
+                    smallest = j;
+                }
+            }
+            int temp = arr[i];
+            arr[i] = arr[smallest];
+            arr[smallest] = temp;
         }
     }
 }
