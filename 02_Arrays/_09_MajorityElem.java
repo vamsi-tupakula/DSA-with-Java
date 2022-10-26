@@ -11,10 +11,31 @@ public class _09_MajorityElem {
             arr[i] = sc.nextInt();
         }
 
-        System.out.println(naiveApp(arr, size));
-        // System.out.println(efficientApp(arr, size));
+        System.out.println("Majority Element : " + naiveApp(arr, size));
+        System.out.println("Majority Index : " + efficientApp(arr, size));
 
         sc.close();
+    }
+
+    private static int efficientApp(int[] arr, int size) {
+        int res=0, count=1;
+        for(int i=1;i<size;i++) {
+            if(arr[res] == arr[i]) count++;
+            else count--;
+            
+            if(count == 0) {
+                count = 1;
+                res = i;
+            }
+        }
+        count = 0;
+        for(int i=0;i<size;i++) {
+            if(arr[res] == arr[i]) count++;
+        }
+        if(count <= size/2) {
+            return -1;
+        }
+        return res;
     }
 
     private static int naiveApp(int[] arr, int size) {
