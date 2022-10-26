@@ -11,8 +11,23 @@ public class _08_EvenOddSubarray {
         }
 
         System.out.println(naiveApp(arr, size));
+        System.out.println(efficientApp(arr, size));
 
         sc.close();
+    }
+
+    private static int efficientApp(int[] arr, int size) {
+        int res = 1;
+        int curr = 1;
+        for(int j=1;j<size;j++) {
+            if((arr[j]%2 == 0 && arr[j-1]%2 != 0) || (arr[j]%2 != 0 && arr[j-1]%2 == 0)) {
+                curr++;
+                res = Math.max(curr, res);
+            } else {
+                curr = 1;
+            }
+        }
+        return res;
     }
 
     private static int naiveApp(int[] arr, int n) {
