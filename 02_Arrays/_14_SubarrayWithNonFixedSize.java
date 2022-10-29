@@ -13,6 +13,7 @@ public class _14_SubarrayWithNonFixedSize {
         int sum = sc.nextInt();
 
         System.out.println(subarray_anylength(arr, size, sum));
+        System.out.println(better_code(arr, size, sum));
         sc.close();
     }
 
@@ -38,5 +39,19 @@ public class _14_SubarrayWithNonFixedSize {
             }
         }
         return false;
+    }
+    private static boolean better_code(int[] arr, int n, int sum) {
+        int curr = arr[0];
+        int s = 0;
+        for(int e=1;e<n;e++) {
+            while(curr > sum && s < e-1) {
+                curr -= arr[s];
+            }
+            if(curr == sum) return true;
+            if(e < n) {
+                curr += arr[e];
+            }
+        }
+        return curr == sum;
     }
 }
