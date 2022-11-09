@@ -43,5 +43,14 @@ public class _17_Patterns {
             }
             System.out.println();
         }
+        System.out.println();
+        // triangle + reverse triangle
+        for(int i=0;i<2*m-1;i++) {
+            int cols = i < m ? i : 2*m-i-2;
+            for(int j=0;j<=cols;j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
