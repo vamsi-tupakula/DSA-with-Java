@@ -12,7 +12,7 @@ public class _17_Patterns {
     }
 
     private static void patterns(int m, int n) {
-        // rectangular pattern
+        // pattern 1
         for(int i=0;i<m;i++) {
             for(int j=0;j<n;j++) {
                 System.out.print("* ");
@@ -20,7 +20,7 @@ public class _17_Patterns {
             System.out.println();
         }
         System.out.println();
-        // triangule pattern
+        // pattern 2
         for(int i=0;i<m;i++) {
             for(int j=0;j<=i;j++) {
                 System.out.print("* ");
@@ -28,7 +28,7 @@ public class _17_Patterns {
             System.out.println();
         }
         System.out.println();
-        // reverse triangle
+        // pattern 3
         for(int i=0;i<m;i++) {
             for(int j=0;j<m-i;j++) {
                 System.out.print("* ");
@@ -36,7 +36,7 @@ public class _17_Patterns {
             System.out.println();
         }
         System.out.println();
-        // number triangle
+        // pattern 4
         for(int i=0;i<m;i++) {
             for(int j=0;j<=i;j++) {
                 System.out.print(j+1 + " ");
@@ -44,7 +44,7 @@ public class _17_Patterns {
             System.out.println();
         }
         System.out.println();
-        // triangle + reverse triangle
+        // pattern 5
         for(int i=0;i<2*m-1;i++) {
             int cols = i < m ? i : 2*m-i-2;
             for(int j=0;j<=cols;j++) {
@@ -52,5 +52,53 @@ public class _17_Patterns {
             }
             System.out.println();
         }
+        // pattern 6
+        for(int i=0;i<m;i++) {
+            for(int j=1;j<=m;j++) {
+                if(j >= m-i) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println();
+        // pattern 7
+        for(int i=0;i<m;i++) {
+            for(int j=0;j<m;j++) {
+                if(j < i) {
+                    System.out.print("  ");
+                } else {
+                    System.out.print("* ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println();
+        // pattern 8
+        for(int i=0;i<m;i++) {
+            for(int j=1;j<=2*m-1;j++) {
+                if(j < m-i || j > m+i) {
+                    System.out.print("  ");
+                } else {
+                    System.out.print("* ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println();
+        // pattern 9
+        for(int i=0;i<m;i++) {
+            for(int j=1;j<=2*m-1;j++) {
+                if(j < i || j > 2*m-1-i) {
+                    System.out.print("  ");
+                } else {
+                    System.out.print("* ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println();
     }
 }
